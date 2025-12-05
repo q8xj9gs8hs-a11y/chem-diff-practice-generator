@@ -53,7 +53,7 @@ The above command:
 1. My output was always including the solutions written as well! This defeats the entire purpose of these patterns. It is up to the user to solve the problems.
 2. The `LaTeX` compilation step was always erroring out, seemingly because the model chose to use `LaTeX` packages not widely compatible (packages that were not installed along with `texlive`)
 
-To fix this, I had to duplicate the pattern and alter it, saving it to my custom patterns instead. Adding the following lines fixed this issue. You may have to also include this workaround:
+To fix this, I had to duplicate the pattern and alter it, saving it to my custom patterns instead. Adding the following lines fixed this issue. It is important to know that with `fabric`, custom-made patterns with the same name as pre-made patterns \[from the Github\] are prioritized over those pre-existing one. You may have to also include this workaround:
 `echo 'you MUST only use latex from the following packages:' >> ~/.config/fabric/my-custom-patterns/write_latex/system.md`
 
 and
