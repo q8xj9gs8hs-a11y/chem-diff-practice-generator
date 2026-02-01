@@ -1,4 +1,4 @@
-# fabric-ai-custom-pattern-generate_problems
+# chem-diff-practice-generator
 Custom fabric-ai pattern to generate practice problems for general chemistry or differential equations
 
 This pattern has served as an aid to my studying for university finals. Here is how to set it up, and most of all, use it properly.
